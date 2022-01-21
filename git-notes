@@ -1,0 +1,57 @@
+
+
+Introduction:
+
+Source control management (SCM)
+
+
+Squash
+Cherry-pick
+Rebase
+Merge request
+Pull request
+Checkout
+Fork
+Webhooks 
+Code review
+Codebase
+
+
+
+Branching strategy
+
+-main
+-release
+-hotfix
+-development
+
+You should work with release branches only if you need to release software to the outside world. In this case, each branch contains a minor version, such as 2.3-stable or 2.4-stable:
+
+
+Related:
+
+Git
+Gitlabs
+Git-runner
+GitOps
+AWS Code Repo?
+
+Commands:
+
+
+Github:
+
+
+https://www.freecodecamp.org/news/git-ssh-how-to/
+ssh-keygen -t rsa -b 4096
+eval "$(ssh-agent -s)"
+ssh-add /home/devops/docker/.ssh/id_rsa
+ssh -T git@github.com
+
+
+Ref links:
+
+https://git-scm.com/
+
+Git Cheat Sheet - https://about.gitlab.com/images/press/git-cheat-sheet.pdf
+
